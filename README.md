@@ -11,11 +11,11 @@ Este documento describe los pasos para levantar la base de datos usando Docker C
 
 1. Clona el repositorio:
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd ecommerce-challenge-tps/infra
+    git clone https://github.com/Kiridihos/ecommerce-ch-challenge-tps-db
+    cd ecommerce-ch-challenge-tps-db
     ```
 
-2. Revisa el archivo `docker-compose.yml` para verificar la configuración de la base de datos.
+2. Revisa el archivo `docker-compose.dev.yml` para verificar la configuración de la base de datos.
 
 3. Levanta los servicios:
     ```bash
